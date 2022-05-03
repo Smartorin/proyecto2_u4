@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
 
+
 void main() {
-  runApp(MyApp());
+  runApp(proyecto2_u4());
 }
 
-class MyApp extends StatefulWidget {
-  MyApp({Key? key}) : super(key: key);
+class proyecto2_u4 extends StatefulWidget {
+  proyecto2_u4({Key? key}) : super(key: key);
 
   @override
-  State<MyApp> createState() => _MyAppState();
+  State<proyecto2_u4> createState() => _proyecto2_u4State();
 }
 
-class _MyAppState extends State<MyApp> {
+class _proyecto2_u4State extends State<proyecto2_u4> {
   @override
   Widget build(BuildContext context) {
     return Container();
